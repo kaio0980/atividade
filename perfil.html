@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil </title>
+</head>
+
+<body>
+    <div class="perfil-profissional">
+        <h2>Perfil Profissional</h2>
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                Foto:<br>
+                <input type="file" accept="image/*"><br><br>
+                Nome:<br>
+                <input type="text" placeholder="Digite seu nome"><br><br>
+                Profissão (e um sonho profissional):<br>
+                <input type="text" placeholder="Ex: Desenvolvedor - Trabalhar no exterior"><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Contato</legend>
+                E-mail:<br>
+                <input type="email" placeholder="Digite seu e-mail"><br><br>
+                Telefone:<br>
+                <input type="tel" placeholder="Digite seu telefone"><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Sobre você</legend>
+                Oque Você gosta de fazer no seu tempo livre?<br>
+                <textarea rows="2" cols="40"></textarea><br><br>
+                Hobbys: <br>
+                <textarea rows="2" cols="40"></textarea><br><br>
+                Livro Favorito: <br>
+                <textarea rows="2" cols="40"></textarea><br><br>
+                Experiências Profissionais:<br>
+                <textarea rows="2" cols="40"></textarea>
+            </fieldset>
+            <br>
+            <fieldset>
+
+                <legend>Formação Acadêmica</legend>
+                <table border="1" cellpadding="8" style="width: 100%;">
+                    <tr>
+                        <th>Instituição</th>
+                        <th>Curso</th>
+                        <th>Ano de Conclusão</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" style="width: 98%;" placeholder="Ex: IFSC"></td>
+                        <td><input type="text" style="width: 98%;" placeholder="Ex: Informática"></td>
+                        <td>
+                            <select style="width: 98%;">
+                                <option value="">Selecione o ano</option>
+                                <option>2025</option>
+                                <option>2024</option>
+                                <option>2023</option>
+                                <option>2022</option>
+                                <option>2021</option>
+                                <option>2020</option>
+                                <option>2019</option>
+                                <option>2018</option>
+                                <option>2017</option>
+                                <option>2016</option>
+                                <option>2015</option>
+                                <option>2014</option>
+                                <option>2013</option>
+                                <option>2012</option>
+                                <option>2011</option>
+                                <option>2010</option>
+                                <option>2009</option>
+                                <option>2008</option>
+                                <option>2007</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <br><br>
+            </fieldset>
+            <br>
+           
+        </form>
+        <div>
+            <label for="formacao">Formação Acadêmica:</label><br>
+            <textarea id="formacao" name="formacao" rows="4" cols="50"
+                placeholder="Descreva sua formação acadêmica..."></textarea>
+            <br><br>
+            <label for="habilidades">Habilidades:</label><br>
+            <textarea id="habilidades" name="habilidades" rows="4" cols="50" placeholder="Liste suas habilidades..."></textarea>
+            <br><br>
+            <label for="experiencia">Experiência Profissional:</label><br>
+            <textarea id="experiencia" name="experiencia" rows="4" cols="50" placeholder="Descreva sua experiência profissional..."></textarea>
+            <br><br>
+
+        </div>
+         <input type="submit" value="Salvar Perfil">
+</body>
+
+</html>
